@@ -383,3 +383,7 @@ body {
   cursor: pointer;
   color: var(--pink);
 }
+
+.copyright {
+  font-size: 0.8rem;
+}
