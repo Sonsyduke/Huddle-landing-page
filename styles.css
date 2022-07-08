@@ -387,3 +387,96 @@ body {
 .copyright {
   font-size: 0.8rem;
 }
+
+/* END OF FOOTER */
+
+/* MEDIA */
+
+@media (max-width: 1100px) {
+  .right-side {
+    width: 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .hero-section {
+    padding-bottom: 50px;
+  }
+
+  .main-heading {
+    font-size: 1.8rem;
+  }
+
+  .desc {
+    font-size: 0.9rem;
+  }
+
+  .right-side {
+    width: 80%;
+  }
+
+  .service {
+    padding: 20px;
+  }
+
+  .newsletter {
+    width: 60%;
+  }
+
+  .newsletter-heading {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .columns {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .column-left {
+    width: 70%;
+  }
+
+  .column-right {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .left-side {
+    text-align: center;
+    width: 80%;
+  }
+
+  .service {
+    flex-direction: column;
+    height: 500px;
+    padding: 30px;
+  }
+
+  .service .left-side-service {
+    order: 1;
+    width: 80%;
+    text-align: center;
+  }
+
+  .service img {
+    width: 70%;
+    height: 60%;
+  }
+
+  .newsletter {
+    width: 90%;
+  }
+}
